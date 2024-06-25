@@ -58,8 +58,7 @@ body
 
 #goals
 {
-    display: block;
-    width: 25%;
+    display: inline-block;
 }
 
 a[aria-current="page"] {
