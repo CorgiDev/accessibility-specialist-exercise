@@ -4,7 +4,6 @@
         <title>Form</title>
         <link rel="stylesheet" type="text/css" href="css/layout.css"/>
         <link rel="stylesheet" type="text/css" href="css/main.css"/>
-        <link rel="stylesheet" type="text/css" href="css/formpdf.css"/>
     </head>
     <body>
         <!-- Right Navbar -->
@@ -18,12 +17,12 @@
         <!-- Main -->
         <main>
             <h1 class="ttl">Remediation Examples</h1>
-            <h2>PDF Remediation Example</h2>
-            <p>The following PDF is an example of the kind that we remediate:</p>
-            <br>
-            <a href="pdf/PDF-Accessibility-Jedi-Exercise.pdf">PDF</a>
+            <section aria-describedby="pdfExample">
+                <h2 id="pdfExample">PDF Remediation Example</h2>
+                <p>The following PDF is an example of the kind that we remediate: <a href="pdf/PDF-Accessibility-Jedi-Exercise.pdf">Accessibility Jedi Exercise PDF</a></p>
+            </section>
 
-            <div>
+            <section>
                 <h2>Example Remediation Form</h2>
                 <p>Fill out this form for results.</p>
                 <form id="remediateForm">
@@ -44,7 +43,7 @@
                     <br>
                     <input type="submit" id="small" value="Enter">
                 </form>
-            </div>
+            </section>
             <br>
             <br>
             <img src="img/readMe.jpg" width="25%" alt="Attention Read Me">

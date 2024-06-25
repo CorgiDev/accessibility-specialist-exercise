@@ -1,18 +1,15 @@
 body
 {
     font-family: "Comic Sans MS", cursive, sans-serif;
-    font-style: ;
-}
-#left-corner
-{
-    float: left;
-    margin-top: -50px;
 }
 
-#right-corner
-{
-    float: right;
-    margin-top: -50px;
+header img {
+    display: inline;
+    max-width: 15%;
+}
+
+header h1 {
+    display: inline;
 }
 
 /* The sidebar menu */
@@ -34,7 +31,6 @@ body
 {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
     color: white;
     display: block;
 }
@@ -51,14 +47,9 @@ body
     padding: 0px 10px;
 }
 
-#blurb
-{
-    display: inline-block;
-}
-
-#goals
-{
-    display: inline-block;
+#goals {
+    display: block;
+    margin-right: 10px;
 }
 
 a[aria-current="page"] {
