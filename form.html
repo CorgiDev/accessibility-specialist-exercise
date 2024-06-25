@@ -14,42 +14,45 @@
             <a href="#">Answer Key</a>
         </nav>
         
-        <!-- Main -->
-        <main>
-            <h1 class="ttl">Remediation Examples</h1>
-            <section aria-describedby="pdfExample">
-                <h2 id="pdfExample">PDF Remediation Example</h2>
-                <p>The following PDF is an example of the kind that we remediate: <a href="pdf/PDF-Accessibility-Jedi-Exercise.pdf">Accessibility Jedi Exercise PDF</a></p>
-            </section>
+        <div id="wrapper">
+            <header>
+                <h1 class="ttl">Remediation Examples</h1>
+            </header>
+    
+            <main>
+                <section aria-describedby="pdfExample">
+                    <h2 id="pdfExample">PDF Remediation Example</h2>
+                    <p>The following PDF is an example of the kind that we remediate: <a href="pdf/PDF-Accessibility-Jedi-Exercise.pdf">Accessibility Jedi Exercise PDF</a></p>
+                </section>
+    
+                <section aria-describedby="formExample">
+                    <h2 id="formExample">Example Remediation Form</h2>
+                    <p>Fill out this form for results.</p>
+                    <form id="remediateForm">
+                        First name: 
+                        <input type="text" name="FullName">
+                        <br>
+                        Middle name: 
+                        <input type="text" name="lastname">
+                        <br>
+                        Last name: 
+                        <input type="text" name="firstname">
+                        <br>
+                        <input type="radio" name="random" value="option1">
+                        Option 1
+                        <br>
+                        <input type="radio" name="gender" value="dog">
+                        Option 2
+                        <br>
+                        <input type="submit" id="small" value="Enter">
+                    </form>
+                </section>
+                <br>
+                <br>
+                <img src="img/readMe.jpg" id="attentionImg" alt="Attention Read Me">
+            </main>
+        </div>
 
-            <section>
-                <h2>Example Remediation Form</h2>
-                <p>Fill out this form for results.</p>
-                <form id="remediateForm">
-                    First name: 
-                    <input type="text" name="FullName">
-                    <br>
-                    Middle name: 
-                    <input type="text" name="lastname">
-                    <br>
-                    Last name: 
-                    <input type="text" name="firstname">
-                    <br>
-                    <input type="radio" name="random" value="option1">
-                    Option 1
-                    <br>
-                    <input type="radio" name="gender" value="dog">
-                    Option 2
-                    <br>
-                    <input type="submit" id="small" value="Enter">
-                </form>
-            </section>
-            <br>
-            <br>
-            <img src="img/readMe.jpg" id="attentionImg" alt="Attention Read Me">
-        </main>
-
-        <!-- Footer -->
         <footer>
             <p>
                 Accessibility Team
