@@ -1,14 +1,13 @@
 body
 {
     background-color: white;
-    color: grey;
+    color: #757575;
     font-family: 'Times New Roman';
 }
 
 .ttl
 {
     text-align: center;
-    margin-bottom: -30px;
     font-size: 50px;
 }
 
