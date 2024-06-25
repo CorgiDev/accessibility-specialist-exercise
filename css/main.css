@@ -23,25 +23,26 @@ header h1 {
     left: 0;
     background-color: grey;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 15px;
 }
   
 /* Nav links */
 .sidenav a
 {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 15px;
     text-decoration: none;
     color: white;
     display: block;
 }
-  
+
 .sidenav a:hover
 {
-    color: grey;
+    color: white;
+    border: 3px solid white;
 }
   
 /* Page content */
-.main
+main
 {
     margin-left: 160px;
     padding: 0px 10px;
@@ -55,4 +56,9 @@ header h1 {
 a[aria-current="page"] {
     font-weight: bold;
     text-decoration: underline;
+}
+
+/* Form Specific Styles */
+#attentionImg {
+    max-width: 25%;
 }
