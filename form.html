@@ -27,24 +27,27 @@
     
                 <section aria-describedby="formExample">
                     <h2 id="formExample">Example Remediation Form</h2>
-                    <p>Fill out this form for results.</p>
                     <form id="remediateForm">
-                        First name: 
-                        <input type="text" name="FullName">
+                        <p>Fill out and submit this form for results.</p>
+                        <label for="firstName">First Name: </label>
+                        <input type="text" id="firstName" name="firstName" autocomplete="given-name">
                         <br>
-                        Middle name: 
-                        <input type="text" name="lastname">
+                        <label for="middleName">Middle Name: </label>
+                        <input type="text" id="middleName" name="middleName" autocomplete="additional-name">
                         <br>
-                        Last name: 
-                        <input type="text" name="firstname">
+                        <label for="lastName">Last Name: </label>
+                        <input type="text" id="lastName" name="lastName" autocomplete="family-name">
                         <br>
-                        <input type="radio" name="random" value="option1">
-                        Option 1
-                        <br>
-                        <input type="radio" name="gender" value="dog">
-                        Option 2
-                        <br>
-                        <input type="submit" id="small" value="Enter">
+                        <fieldset>
+                            <legend>Select one of the 2 options below (does not matter which one):</legend>
+                            <input type="radio" name="random" id="option1" value="option1">
+                            <label for="option1">Option 1</label>
+                            <br>
+                            <input type="radio" name="random" id="option2" value="option2">
+                            <label for="option2">Option 2</label>
+                            <br>
+                        </fieldset>
+                        <input type="submit" id="small" value="Submit">
                     </form>
                 </section>
                 <br>
